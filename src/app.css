@@ -8,6 +8,11 @@
 
 }
 
+.logo{
+    width: 120px;
+    margin-bottom: 12px;
+}
+
 h1{
     font-size: 50px;
 }
@@ -54,4 +59,12 @@ h2{
 
 .area-input input::placeholder{
     color:#fff;
+}
+
+.footer{
+    margin-top: 30px;
+}
+
+a{
+    text-decoration: none;
 }
