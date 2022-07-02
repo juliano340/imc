@@ -51,3 +51,7 @@ span{
 h2{
     margin-top: 28px;
 }
+
+.area-input input::placeholder{
+    color:#fff;
+}
