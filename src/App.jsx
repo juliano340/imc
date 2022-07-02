@@ -1,5 +1,6 @@
 import "./app.css";
 import { useState } from "react";
+import logo from './logo.png';
 
 
 export default function App () {
@@ -40,7 +41,8 @@ export default function App () {
 
   return (
     <div className="app">
-      <img src="./logo.png" alt="Logo" className="logo"></img>
+      <img src={logo } alt="logo" className="logo"/>
+      
       <h1>Calculadora IMC</h1>
       <span>Vamos calcular seu IMC:</span>
       <div className="area-input">
@@ -59,7 +61,14 @@ export default function App () {
         <button onClick={calcularImc}>Calcular</button>
 
       </div>
+
+      <div className="saida">
+      
       <h2>{mensagem}</h2>
+
+      </div>
+      
+      
       <div className="footer">
         <footer><a href="https://juliano340.com">juliano340.com</a></footer>
       </div>
